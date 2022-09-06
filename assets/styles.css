@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+@import url('http://fonts.cdnfonts.com/css/8bit-wonder');
 
 .gameboy_container{
     width: 100%;
@@ -139,6 +140,9 @@
     position: relative;
     left: 55%;
 }
+.btn_flex > button:nth-child(2){
+    padding-left: 3px;
+}
 #musicBtn-pause{
     display: none;
     padding-left: 3px;
@@ -212,12 +216,12 @@
     gap: 10px;
 }
 .code_container > form > div:nth-child(1){
-    font-family: '8BIT WONDER', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     font-size: 10px;
                                                 
 }
 .code_container > form > div:nth-child(1) > input{
-    font-family: '8BIT WONDER', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     font-size: 12px;
     outline: none;
     border: none;
@@ -232,14 +236,14 @@
     left: 5%;
 }
 .code_container > form > div:nth-child(1) > small{
-    font-family: '8BIT WONDER', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     font-size: 8px;
     color: red;
     text-align: center;
 }
 .code_container > form > div:nth-child(2) > h2{
     text-align: center;
-    font-family: '8BIT WONDER', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     font-size: 12px;
 
 }
@@ -251,7 +255,7 @@
 }
 .code_container > form > div:nth-child(2) > div > h4{
     text-align: center;
-    font-family: '8BIT WONDER', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     font-size: 16px;
     color: green;
 }

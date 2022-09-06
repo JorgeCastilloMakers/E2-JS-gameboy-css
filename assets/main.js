@@ -45,10 +45,11 @@ let musicBtn = document.getElementById('musicBtn');
 let musicBtnPause = document.getElementById('musicBtn-pause');
 const music = new Audio('./assets/PokemonIntroGameboy.mp3');
 let btnReset = document.getElementById('btnReset');
+const error = formfield.querySelector("small");
 
 const searchPizza = (numero) => {
     const pizzasss = pizzas.find( e => e.id == numero);
-    const error = formfield.querySelector("small");
+    
     if (pizzasss == undefined){
         error.textContent = "No tenemos Pokepizza con ese número"
         pizzaName.textContent = "";
